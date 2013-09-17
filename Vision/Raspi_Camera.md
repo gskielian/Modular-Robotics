@@ -27,13 +27,23 @@ To take an image with the raspicam type the following:
 raspistill -o image_name.jpg
 ```
 
-Then we can use tesseract to grab the text data into a file:
+if you want to take it with a delay (to adjust the image in the image preview) use the -t option:
 
 ```bash
+raspistill -t 4000 -o image.jpg
+```
+
+
+
+Then we can use tesseract to grab the text data into a text file:
+
+```bash
+tesseract image_name.jpg text.txt
 
 ```
 
 We can summarize these actions in one line:
 ```bash
+raspistill -t 5000
 
 ```
