@@ -11,8 +11,10 @@ Afterwards we need to enter the following into the terminal to install the tesse
 sudo apt-get install tesseract-ocr
 ```
 
-I would also install imagemagick (which will allow us to fine tune the images and get the most out of tesseract):
+I recommend installing **imagemagick** which will allow us to fine tune the images and get the most out of tesseract:
 
 ```bash
 sudo apt-get install imagemagick
 ```
+
+
