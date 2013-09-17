@@ -3,7 +3,7 @@ RasPiCam
 
 ### Setting up the Camera
 
-In this implementation, you should first [install the raspberry pi camera](http://thepihut.com/pages/how-to-install-the-raspberry-pi-camera), for which there are already many tutorials.
+In this implementation, you should first [install the raspberry pi camera](http://thepihut.com/pages/how-to-install-the-raspberry-pi-camera).
 
 ### Installing Software
 
@@ -27,4 +27,13 @@ To take an image with the raspicam type the following:
 raspistill -o image_name.jpg
 ```
 
+Then we can use tesseract to grab the text data into a file:
 
+```bash
+
+```
+
+We can summarize these actions in one line:
+```bash
+
+```
