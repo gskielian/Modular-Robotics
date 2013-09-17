@@ -1,11 +1,11 @@
 RasPiCam
 ========
 
-#### Setting up the Camera
+### Setting up the Camera
 
 In this implementation, you should first [install the raspberry pi camera](http://thepihut.com/pages/how-to-install-the-raspberry-pi-camera), for which there are already many tutorials.
 
-#### Installing Software
+### Installing Software
 
 Afterwards we need to enter the following into the terminal to install the tesseract-ocr (Optical Character Recognition software):
 
@@ -19,7 +19,7 @@ I recommend installing **imagemagick** which will allow us to fine tune the imag
 sudo apt-get install imagemagick
 ```
 
-#### Taking an image, and grabbing the text
+### Taking an image, and grabbing the text
 
 To take an image with the raspicam type the following:
 
