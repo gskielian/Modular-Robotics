@@ -1,7 +1,7 @@
 Speech
 ======
 
-Contents of Folder
+Contents of Folder:
 * [ControlVolume.py](ControlVolume.py) - simple python script which allows you to set volume from the terminal
 * This README.md - description of project and quick-start "hello world" for espeak
 
@@ -10,6 +10,7 @@ Contents of Folder
 
 There are different routes of implementing speech, but the one we will be using most will be espeak (it is easy to place onto a raspberry pi).
 
+(We can also have the robot send calls through services like [Twilio](../SMS-And-PhoneCall/README.md)
 
 ## Installation
 
