@@ -4,9 +4,7 @@ Speech
 Contents of Folder
 * [ControlVolume.py](ControlVolume.py) - simple python script which allows you to set volume from the terminal
 * This README.md - getting started, and quick "hello world" for computer speech
-*
-*
-*
+
 
 
 
