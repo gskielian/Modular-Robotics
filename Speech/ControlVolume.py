@@ -9,8 +9,8 @@ m = alsaaudio.Mixer()
 #Example: Set the volume to 50%
 #m.setvolume(50)
 
-#we use sys.argv to get command line argument
-m.setvolume(sys.argv[1])
+#we use sys.argv to get command line argument -- we must turn it into an integer with the int() function
+m.setvolume(  int(sys.argv[1]) )
 
 #Example, from bash you can type `python ControlVolumne.py 100` to turn volume to the max (then run an espeak)
 
