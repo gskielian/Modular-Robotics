@@ -10,7 +10,7 @@ Contents of Folder:
 
 There are different routes of implementing speech, but the one we will be using most will be espeak (it is easy to place onto a raspberry pi).
 
-(We can also have the robot send calls through services like [Twilio](../SMS-And-PhoneCall/README.md)
+(We can also have the robot send calls through services like [Twilio](../SMS-and-PhoneCall/README.md) )
 
 ## Installation
 
