@@ -15,6 +15,7 @@ In case references are made to it later, my first projects for this robot are:
 
 1. Speaking aloud directions from a list
 2. Cooking soup for me 
+3. Calling/Texting when the soup is ready
 
 ## Done
 * Learned to use RasPiCam
