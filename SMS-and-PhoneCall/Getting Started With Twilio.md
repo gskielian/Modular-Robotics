@@ -1,10 +1,25 @@
-
 Getting Started With Twilio
 ===========================
 
 Making an account is free, and they have a well defined free-tier with 1-sms per minute max.
 
 https://www.twilio.com/
+
+
+## Installing Helper Libaries
+
+```bash
+pip install twilio
+```
+
+Or if the above didn't work:
+
+```bash
+easy_install twilio
+```
+
+Follow the directions on the python install page of twilio for an example:
+https://www.twilio.com/docs/python/install
 
 
 ## Voice Calls: Text To Speech
