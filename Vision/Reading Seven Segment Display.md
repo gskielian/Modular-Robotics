@@ -31,5 +31,5 @@ make
 ...thatwas simple. For good measure let's also install it into our system for use outside the folder:
 
 ```bash
-make instal
+sudo make install
 ```
