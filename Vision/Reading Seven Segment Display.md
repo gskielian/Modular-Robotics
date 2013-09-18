@@ -34,11 +34,21 @@ make
 sudo make install
 ```
 
-### Example
+### Example/Demo
 
+
+![Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
+
+```bash
+ssocr crop 190 73 80 100 -d 2 image.jpg -t 20
+```
+The code above resulted in `19` being placed into standard-out.
+
+
+### Usage
 You will need to make sure that the number of digits is known, and the bounding box for the digits.
 
-Notes
+#### Notes
 * Bounding Box 
   * grab x and y of top-left corner (pixels measured from top-left as per usual)
   * get the width and height in pixels respectively
@@ -48,11 +58,3 @@ Notes
 ```bash
 ssocr  crop top_left_x top_left_y width height -d number of digits expected the_image_name.jpg -t black_white_threshold_percent
 ```
-
-
-![Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
-
-```bash
-ssocr crop 190 73 80 100 -d 2 image.jpg -t 20
-```
-
