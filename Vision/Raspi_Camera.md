@@ -40,7 +40,6 @@ Then we can use tesseract to grab the text data into a text file:
 
 ```bash
 tesseract image.jpg text.txt
-
 ```
 
 ### Summary -- One-Liner
@@ -48,5 +47,4 @@ tesseract image.jpg text.txt
 We can summarize these actions in one line:
 ```bash
 raspistill -t 5000 -o image.jpg ; tesseract image.jpg text.txt; cat text.txt
-
 ```
