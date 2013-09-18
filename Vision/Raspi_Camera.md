@@ -43,6 +43,8 @@ tesseract image.jpg text.txt
 
 ```
 
+### Summary -- One-Liner
+
 We can summarize these actions in one line:
 ```bash
 raspistill -t 5000 -o image.jpg ; tesseract image.jpg text.txt; cat text.txt
