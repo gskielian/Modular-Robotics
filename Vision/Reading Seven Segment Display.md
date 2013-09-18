@@ -36,7 +36,19 @@ sudo make install
 
 ### Example
 
-You will need to make sure that the number of digits is known, and that the 
+You will need to make sure that the number of digits is known, and the bounding box for the digits.
+
+Notes
+* Bounding Box 
+  * grab x and y of top-left corner (pixels measured from top-left as per usual)
+  * get the width and height in pixels respectively
+* Enter the number of digits after `-d`
+* Enter the black-white threshold in % after `-t`
+
+```bash
+ssocr  crop top_left_x top_left_y width height -d number of digits expected the_image_name.jpg -t black_white_threshold_percent
+```
+
 
 ![Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
 
