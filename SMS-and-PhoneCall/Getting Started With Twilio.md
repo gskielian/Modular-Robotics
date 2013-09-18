@@ -36,8 +36,8 @@ The following is a quote from the twilio apis at https://www.twilio.com/docs/api
 from twilio.rest import TwilioRestClient
 
 # Your Account Sid and Auth Token from twilio.com/user/account
-account_sid = "AC7a7abf4dad57e4948a8c1f3679a5073b"
-auth_token  = "1159f503b213d004b8cf7e16dd8c5d00"
+account_sid = "AC7a7aaf4dad57e4948a8c1f36aaa5073b"
+auth_token  = "1159f503b213d0ffb8cf7e16dd8c5d00"
 client = TwilioRestClient(account_sid, auth_token)
 
 message = client.sms.messages.create(
