@@ -3,10 +3,10 @@ Speech
 
 Contents of Folder
 * [ControlVolume.py](ControlVolume.py) - simple python script which allows you to set volume from the terminal
-* This README.md - getting started, and quick "hello world" for computer speech
+* This README.md - description of project and quick-start "hello world" for espeak
 
 
-
+## Description
 
 There are different routes of implementing speech, but the one we will be using most will be espeak (it is easy to place onto a raspberry pi).
 
