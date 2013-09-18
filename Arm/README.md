@@ -7,7 +7,7 @@ main controller, but also give it the eigenbasis -- if you will -- of human arm/
 
 ## ToDo
 
-1. turning a knob
-2. pressing a button
-3. holding an object
-4. twisting a screwdriver
+* turning a knob
+* pressing a button
+* holding an object
+* twisting a screwdriver
