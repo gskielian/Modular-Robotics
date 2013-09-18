@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#usage TwilioCurl.sh "from number" "to number" "your message"
 
 message=`echo "$3" | sed 's/ /\%2B/g'`
 
