@@ -11,7 +11,7 @@ Contents of Folder
 There are different routes of implementing speech, but the one we will be using most will be espeak (it is easy to place onto a raspberry pi).
 
 
-### Installation
+## Installation
 
 Install **espeak** easily on the Raspberry Pi or Debian-based system with the following command:
 
@@ -19,7 +19,7 @@ Install **espeak** easily on the Raspberry Pi or Debian-based system with the fo
 sudp apt-get install espeak
 ```
 
-### Usage
+## Usage
 
 Usage of espeak is an simple as the following:
 
@@ -29,16 +29,22 @@ espeak "hello there"
 
 Now on a Raspberry Pi the 
 
-### Volume Control
+## Volume Control
 
 There are many ways to control the volume of the system (may want to crank it up before trolling somebody witha an espeak for example).
 The way I like to use (which works for Ubuntu 12.04) is the python's `alsaaudio` module.
 
 see [ControlVolume.py](ControlVolume.py) for a simple script with the following usage from the command line:
 
+### Example 1: Controlling volume
 
 (Sets volume to 100)
 ```bash
 python ControlVolume.py 100
 ```
 
+### Example 2: Turning the volume to max before an espeak:
+
+```bash
+python ControlVolume.py 100 ; espeak "Can't mute me, lol"
+```
