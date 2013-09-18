@@ -38,7 +38,7 @@ sudo make install
 
 You will need to make sure that the number of digits is known, and that the 
 
-[Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
+![Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
 
 ```bash
 ssocr crop 190 73 80 100 -d 2 image.jpg -t 20
