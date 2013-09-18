@@ -20,8 +20,16 @@ First we must install the dependencies:
 sudo apt-get install libimlib2 libimlib2-dev
 ```
 
-Next we make the project:
+Next we download the ssocr binary from the following site:
+
+http://www.unix-ag.uni-kl.de/~auerswal/ssocr/
+
+Extract it, cd into the directory, then make the project with a simple:
 ```bash
 make
 ```
-that was simple
+...thatwas simple. For good measure let's also install it into our system for use outside the folder:
+
+```bash
+make instal
+```
