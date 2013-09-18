@@ -11,7 +11,7 @@ While normal black-and-white text is easy, seven-segment displays are super hard
 
 Thankfully and thanks to the creators of ssocr, there is a way we can give our bots this essential skill.
 
-### Installation Of Seven-Segment-Optical-Character-Recognition (ssocr)
+## Installation Of Seven-Segment-Optical-Character-Recognition (ssocr)
 
 First we must install the dependencies:
 
@@ -34,7 +34,7 @@ make
 sudo make install
 ```
 
-### Example/Demo
+## Example/Demo
 
 
 ![Sample Image](http://i1347.photobucket.com/albums/p711/gregorykielian/IRthermometerReadout_zpseff5c474.jpg)
@@ -45,10 +45,10 @@ ssocr crop 190 73 80 100 -d 2 image.jpg -t 20
 The code above resulted in `19` being placed into standard-out.
 
 
-### Usage
+## Usage
 You will need to make sure that the number of digits is known, and the bounding box for the digits.
 
-#### Notes
+### Notes
 * Bounding Box 
   * grab x and y of top-left corner (pixels measured from top-left as per usual)
   * get the width and height in pixels respectively
