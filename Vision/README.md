@@ -12,6 +12,7 @@ The goal of this project, is to be able to automate everyday tasks by creatin a 
 Allowing the robot to use tools initially meant for people will allow it to function more generally -- as most interfaces have been optimized in some way to work for people.
 
 In case references are made to it later, my first projects for this robot are:
+
 1. Speaking aloud directions from a list
 2. Cooking soup for me 
 
