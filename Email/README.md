@@ -7,12 +7,30 @@ This is relatively really easy for a Linux disto.  I've had a lot of luck simply
 But Raspberry Pi's are cool, and this is how you set it up with that:
 
 
-## Step 1: 
+## Step 0: Getting Vim
 
+`sudo apt-get update && sudo apt-get install vim`
 
+## Step 1: Installation
 
+```bash
+sudo apt-get install ssmtp mailutils mpack
+``` 
 
+Opening the config file:
+```bash
+sudo vim /etc/ssmtp/ssmtp.conf
+```
 
-## Reference:
+Adjust these lines:
+```bash
+AuthUser=youruserid@gmail.com
+AuthPass=userpass
+FromLineOverride=YES
+mailhub=smtp.gmail.com:587
+UseSTARTTLS=YES
+```
 
-http://rpi.tnet.com/project/faqs/smtp
+Step 3: Sending your first email
+
+echo "sample text" | mail -s "Subject" username@domain.tld
