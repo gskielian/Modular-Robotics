@@ -28,7 +28,7 @@ Usage of espeak is an simple as the following:
 espeak "hello there"
 ```
 
-Now on a Raspberry Pi the 
+Now on a Raspberry Pi remember to connect speakers.
 
 ## Volume Control
 
