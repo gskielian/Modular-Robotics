@@ -31,6 +31,8 @@ mailhub=smtp.gmail.com:587
 UseSTARTTLS=YES
 ```
 
-Step 3: Sending your first email
+## Step 3: Sending your first email
 
-echo "sample text" | mail -s "Subject" username@domain.tld
+```bash
+echo "Hi from your Pi" | mail -s "Title of Email" username@gmail.com
+```
