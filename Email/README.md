@@ -1,10 +1,10 @@
-Email
-=====
+Robot Can Send you Email Questions/Updates
+==========================================
 
 
 This is relatively really easy for a Linux disto.  I've had a lot of luck simply using the `mail` command on Macs and it just works.
 
-But Raspberry Pi's are cool, and this is how you set it up with that:
+But Raspberry Pi's are smaller, longer battery life, and fit into a high-altitude weather balloon, and can send email after 3 minutes of set up.
 
 
 ## Step 0: Getting Vim
