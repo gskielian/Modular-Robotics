@@ -8,6 +8,9 @@ Doing a little research led me eventually to this page on StackOverflow: http://
 
 ~~The reliability of the free-tier of Twillio convinced me to start out with it for now (I may research the Google API later).~~
 
+Updates
+-------
+
 *Twilio basic implementation is now worked out* with basic example code, but it needs to be polished.
 
 Tropos and Google SMS Apis are next on [the list](#the-list).
