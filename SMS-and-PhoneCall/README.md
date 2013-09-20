@@ -10,7 +10,7 @@ Doing a little research led me eventually to this page on StackOverflow: http://
 
 Twilio basic implementation is worked out with basic example code, but it needs to be polished.
 
-Tropos and Google SMS Apis are next on [the list](#thelist).
+Tropos and Google SMS Apis are next on [the list](#the-list).
 
 
 The List
