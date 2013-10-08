@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 
-#define rxPin 2    // Connect to SOUT
-#define txPin 3    // Connect to SIN
+#define rxPin 2    // Connect this to SOUT
+#define txPin 3    // Connect this to SIN
 
 SoftwareSerial roboSerial =  SoftwareSerial(rxPin, txPin);
 
