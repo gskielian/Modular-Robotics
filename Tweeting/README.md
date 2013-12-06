@@ -3,8 +3,7 @@ Tweeting
 
 After a friend of mine informed me about the ease of tweeting from a robot, I decided to check it out.
 
-It turns out to be super trivial.
-
+Super quick.
 
 
 The best way to do this I've seen (between curl and python) is python's twitter library.
