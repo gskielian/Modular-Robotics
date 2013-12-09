@@ -38,3 +38,13 @@ UseSTARTTLS=YES
 ```bash
 echo "Hi from your Pi" | mail -s "Title of Email" username@gmail.com
 ```
+
+## Step 3: Sending attachments
+
+make sure you have uuencode installed 
+
+```bash
+sudo apt-get install sharutils
+```
+
+**Note: there is no 'e' in sharutils**
