@@ -14,6 +14,7 @@ The best way to do this I've seen (between curl and python) is python's twitter 
 The following command worked for me (you may need to install **easy_install** first)
 
 ```python
+sudo apt-get install python-setuptools 
 sudo easy_install twitter
 ```
 
