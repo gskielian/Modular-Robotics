@@ -24,10 +24,12 @@ sudo vim /etc/ssmtp/ssmtp.conf
 
 Adjust these lines:
 ```bash
+root=postmaster
+hostname=raspberrypi
+mailhub=smtp.gmail.com:587
 AuthUser=youruserid@gmail.com
 AuthPass=userpass
 FromLineOverride=YES
-mailhub=smtp.gmail.com:587
 UseSTARTTLS=YES
 ```
 
