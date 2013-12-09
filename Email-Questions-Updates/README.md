@@ -48,3 +48,9 @@ sudo apt-get install sharutils
 ```
 
 **Note: there is no 'e' in sharutils**
+
+Finally we send the attachment
+
+```bash
+uuencode imagename.jpg imagename.jpg | mail -s "Title of Email Goes Here" ur.friends.email@gmail.com
+```
