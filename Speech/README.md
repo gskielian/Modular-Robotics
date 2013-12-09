@@ -17,8 +17,18 @@ There are different routes of implementing speech, but the one we will be using 
 Install **espeak** easily on the Raspberry Pi or Debian-based system with the following command:
 
 ```bash
-sudp apt-get install espeak
+sudo apt-get install alsa-utils
+sudo apt-get install espeak
 ```
+
+**IMPORTANT** 
+
+The following sets the output to analog (headphone) output:
+```bash
+amixer cset numid=3 1
+```
+
+If you don't do the above line, you may not be able to get sound from the raspberry pi (because it may, for example, be sending sound data to the hdmi). 
 
 ## Usage
 
